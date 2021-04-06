@@ -5211,7 +5211,7 @@ dependencies = [
  "nom 6.1.2",
  "num_enum",
  "prost 0.6.1",
- "prost-build 0.6.1",
+ "prost-build",
  "prost-types 0.6.1",
  "shared",
  "snafu",
@@ -5270,24 +5270,6 @@ dependencies = [
 
 [[package]]
 name = "prost-build"
-version = "0.6.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02b10678c913ecbd69350e8535c3aef91a8676c0773fc1d7b95cdd196d7f2f26"
-dependencies = [
- "bytes 0.5.6",
- "heck",
- "itertools 0.8.2",
- "log",
- "multimap",
- "petgraph",
- "prost 0.6.1",
- "prost-types 0.6.1",
- "tempfile",
- "which 3.1.1",
-]
-
-[[package]]
-name = "prost-build"
 version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32d3ebd75ac2679c2af3a92246639f9fcc8a442ee420719cc4fe195b98dd5fa3"
@@ -5301,7 +5283,7 @@ dependencies = [
  "prost 0.7.0",
  "prost-types 0.7.0",
  "tempfile",
- "which 4.0.2",
+ "which",
 ]
 
 [[package]]
@@ -5368,7 +5350,7 @@ dependencies = [
  "nom 6.1.2",
  "pem",
  "prost 0.7.0",
- "prost-build 0.7.0",
+ "prost-build",
  "prost-derive 0.7.0",
  "rand 0.8.3",
  "regex",
@@ -8286,7 +8268,7 @@ dependencies = [
  "pretty_assertions",
  "prometheus-parser",
  "prost 0.6.1",
- "prost-build 0.6.1",
+ "prost-build",
  "prost-types 0.6.1",
  "pulsar",
  "rand 0.8.3",
@@ -8804,15 +8786,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0fcb14dea929042224824779fbc82d9fab8d2e6d3cbc0ac404de8edf489e77ff"
 dependencies = [
  "cc",
-]
-
-[[package]]
-name = "which"
-version = "3.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d011071ae14a2f6671d0b74080ae0cd8ebf3a6f8c9589a2cd45f23126fe29724"
-dependencies = [
- "libc",
 ]
 
 [[package]]
